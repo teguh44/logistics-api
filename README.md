@@ -57,6 +57,22 @@ The API will be available at `http://localhost:8080`.
 | GET | `/api/shipments/{id}/tracking` | Get tracking history |
 | POST | `/api/shipments/{id}/tracking` | Add tracking event |
 
+## API Documentation
+
+Interactive API documentation is available through Swagger UI.
+
+After starting the application, visit:
+
+- Swagger UI: http://localhost:8080/swagger-ui/index.html
+- OpenAPI Specification: http://localhost:8080/v3/api-docs
+
+Swagger UI provides:
+- Documentation for all shipment and tracking endpoints
+- Request and response schemas
+- Example JSON payloads
+- HTTP response codes
+- Interactive API testing using "Try it out"
+
 ## Example: Create Shipment
 
 ```bash
